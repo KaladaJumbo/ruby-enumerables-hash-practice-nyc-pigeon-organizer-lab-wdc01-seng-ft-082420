@@ -30,13 +30,13 @@ def bird_names(data)
 
 end 
 
-def nyc_pigeon_organizer #(data)
+def nyc_pigeon_organizer(data)
   # write your code here!
   
   # take a hash with :color, :gender, :lives and convert it to second structure
   #using gender as they are the best way to collect all names 
   
-  data = initalize_data
+  #data = initalize_data
   all_names = bird_names(data)
   organized_data = {}
   
