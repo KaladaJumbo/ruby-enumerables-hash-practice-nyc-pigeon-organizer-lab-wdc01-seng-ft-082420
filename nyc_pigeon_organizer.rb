@@ -41,7 +41,7 @@ def nyc_pigeon_organizer #(data)
   organized_data = {}
   
   all_names.each do |name|
-    
+    organized_data[name] = {}
     data.each do |key, value|
       
       inner_array = []
