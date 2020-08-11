@@ -49,9 +49,9 @@ def nyc_pigeon_organizer #(data)
       data[key].each do |inner_key, inner_value|
        
         if data[key][inner_key].detect {|att| att == name}
-          binding.pry
-          inner_array.push(inner_key.to_s)
           
+          inner_array.push(inner_key.to_s)
+          binding.pry
           organized_data[name][key] =  inner_array
         end
         
