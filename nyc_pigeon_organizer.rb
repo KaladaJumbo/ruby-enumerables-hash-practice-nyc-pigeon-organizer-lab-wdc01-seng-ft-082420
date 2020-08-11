@@ -50,7 +50,7 @@ def nyc_pigeon_organizer #(data)
        
         if data[key][inner_key].detect {|att| att == name}
           binding.pry
-          inner_array.shift{inner_key.to_s}
+          inner_array.push(inner_key.to_s)
           
           organized_data[name][key] =  inner_array
         end
