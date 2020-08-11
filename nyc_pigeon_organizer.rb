@@ -61,7 +61,7 @@ def nyc_pigeon_organizer #(data)
     
   end 
   
-  return origanized_data
+  return organized_data
    
 end
 
